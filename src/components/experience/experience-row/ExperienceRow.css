@@ -1,0 +1,91 @@
+﻿
+.ExperienceRow__container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 0;
+    transition: all 0.3s ease;
+}
+
+.ExperienceRow__container.opened{
+    gap: 24px;
+}
+
+.ExperienceRow__row-container{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+    justify-content: start;
+    align-items: center;
+}
+
+.ExperienceRow__dates-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.Experience__dates {
+    font-size: 20px;
+    font-family: YSText, sans-serif;
+    font-weight: bold;
+    color: #F9CA0A;
+}
+
+.Experience__duration {
+    font-size: 16px;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+    color: #F9CA0A;
+}
+
+.ExperienceRow__career-container{
+    display: flex;
+    gap: 12px;
+}
+
+.ExperienceRow__company-text{
+    font-size: 24px;
+    font-family: YSText, sans-serif;
+    font-weight: bold;
+}
+
+.ExperienceRow__career-text{
+    font-size: 24px;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+}
+
+.ExperienceRow__dot{
+    font-size: 24px;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+}
+
+.ExperienceRow__arrow{
+    margin-left: auto;
+    transition: all 0.4s ease;
+}
+
+.ExperienceRow__arrow.opened{
+    transform: rotate(180deg);
+}
+
+.ExperienceRow__description-container{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.ExperienceRow__description-container.opened{
+    max-height: 1000px;
+}
+
+.ExperienceRow__career-description{
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    white-space: pre-line;
+}

@@ -1,0 +1,44 @@
+﻿
+.AboutMe__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    padding: 44px 60px;
+}
+
+.AboutMe__header-text {
+    font-size: 64px;
+    font-family: YSDisplay, sans-serif;
+    font-weight: bold;
+}
+
+.AboutMe__content-container{
+    display: flex;
+    padding-top: 32px;
+    align-items: start;
+}
+
+.AboutMe__photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.AboutMe__photo{
+    border-radius: 24px;
+    height: 330px;
+}
+
+.AboutMe__hh-logo{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 60px;
+}
+
+.AboutMe__text{
+    padding-left: 65px;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}

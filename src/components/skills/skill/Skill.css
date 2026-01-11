@@ -1,0 +1,29 @@
+﻿
+.Skill__container{
+    display: flex;
+    padding: 5px 20px 5px 10px;
+    gap: 8px;
+}
+
+.Skill__img{
+    height: 45px;
+    width: 45px;
+}
+
+.Skill__info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Skill__name{
+    font-size: 16px;
+    font-family: YSText, sans-serif;
+    font-weight: bold;
+}
+
+.Skill__description{
+    font-size: 16px;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+}

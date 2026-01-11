@@ -1,0 +1,18 @@
+﻿
+.Offer__offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.Offer__offer-text {
+    font-size: 60px;
+    font-family: YSDisplay, sans-serif;
+    font-weight: bold;
+}
+
+.Offer__heart-image{
+    height: 52px;
+    width: 52px;
+}
