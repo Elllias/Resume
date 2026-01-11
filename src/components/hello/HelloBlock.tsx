@@ -6,7 +6,7 @@ export const HelloBlock = () => {
         <>
             <div className="HelloBlock__video-background">
                 <video className="HelloBlock__video" autoPlay muted loop playsInline preload="auto">
-                    <source src="/video/hello-background.mp4" type="video/mp4"/>
+                    <source src={`${process.env.PUBLIC_URL}/video/hello-background.mp4`} type="video/mp4"/>
                 </video>
             </div>
             <div className="HelloBlock__container">
