@@ -1,0 +1,18 @@
+
+.Skills__container{
+    min-height: 25vh;
+    padding: 44px 60px;
+}
+
+.Skills__header{
+    font-size: 36px;
+    font-family: YSDisplay, sans-serif;
+    font-weight: bold;
+    padding-bottom: 44px;
+}
+
+.Skills__grid-container{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}

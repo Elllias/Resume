@@ -1,0 +1,27 @@
+﻿
+.Footer__container {
+    padding: 44px 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer__base-text{
+    color: white;
+    font-family: YSText, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.Footer__contacts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.Footer__links-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: "YSText";
+    font-weight: bold;
+    src: url("ui/fonts/YandexSansText-Medium.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "YSText";
+    font-weight: normal;
+    src: url("ui/fonts/YandexSansText-Regular.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "YSDisplay";
+    font-weight: normal;
+    src: url("ui/fonts/YandexSansDisplay-Regular.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "YSDisplay";
+    font-weight: bold;
+    src: url("ui/fonts/YandexSansDisplay-Bold.woff2") format("woff2")
+}

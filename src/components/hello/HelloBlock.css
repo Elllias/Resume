@@ -1,0 +1,66 @@
+.HelloBlock__container{
+    display: block;
+    height: 100vh;
+    background-color: #F7D861;
+    align-content: end;
+    z-index: -1001;
+    padding: 44px 60px;
+}
+
+.HelloBlock__text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 0 15vh 0;
+}
+
+.HelloBlock__base-text{
+    background-color: #1B1B1B;
+    color: white;
+    padding: 0 20px 20px 15px;
+    font-family: YSDisplay, sans-serif;
+    font-weight: normal;
+    letter-spacing: calc(1em / -50);
+    line-height: 44px;
+}
+
+.HelloBlock__top-text{
+    font-size: 92px;
+    border-radius: 20px 20px 20px 0;
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.HelloBlock__middle-text{
+    font-size: 44px;
+    border-radius: 0 0 20px 0;
+    position: relative;
+    padding-top: 0;
+}
+
+.HelloBlock__low-text{
+    font-size: 44px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+}
+
+.HelloBlock__low-text::before, .HelloBlock__middle-text::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -23px;
+    width: 23px;
+    height: 23px;
+    background-image: url(https://avatars.mds.yandex.net/get-lpc/17800094/c0ae6a89-38e1-4986-9f11-9b2b6f408321/orig);
+}
+
+.HelloBlock__video-background {
+    position: absolute;
+}
+
+.HelloBlock__video {
+    width: 1300px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

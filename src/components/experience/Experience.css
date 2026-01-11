@@ -1,0 +1,19 @@
+﻿
+.Experience__container{
+    display: flex;
+    flex-direction: column;
+    padding: 44px 60px;
+    gap: 32px;
+}
+
+.Experience__header{
+    font-size: 36px;
+    font-family: YSDisplay, sans-serif;
+    font-weight: bold;
+}
+
+.Experience__rows-container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
