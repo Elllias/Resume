@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.32e922ae.css",
+    "main.js": "/Resume/static/js/main.668cd0d9.js",
+    "static/media/offer-background.png": "/Resume/static/media/offer-background.f7d1915035c905dd16b8.png",
+    "static/media/photo-mask-2.png": "/Resume/static/media/photo-mask-2.981046b1aff5bb46f859.png",
+    "static/media/photo-mask-1.png": "/Resume/static/media/photo-mask-1.b42c8fb16187cb3d77b0.png",
+    "static/media/photo-main.png": "/Resume/static/media/photo-main.ca94292c5020a79885d1.png",
+    "static/media/YandexSansText-Medium.woff2": "/Resume/static/media/YandexSansText-Medium.43fa0def7951e857f96c.woff2",
+    "static/media/YandexSansText-Regular.woff2": "/Resume/static/media/YandexSansText-Regular.fd627cc781ea46efb18f.woff2",
+    "static/media/YandexSansDisplay-Bold.woff2": "/Resume/static/media/YandexSansDisplay-Bold.f502192c0c4f8b5ba5cf.woff2",
+    "static/media/YandexSansDisplay-Regular.woff2": "/Resume/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
+    "static/media/docker-logo.png": "/Resume/static/media/docker-logo.d2f48df051a586297c15.png",
+    "static/media/kuber-logo.png": "/Resume/static/media/kuber-logo.f568a0a722cbf5db0d70.png",
+    "static/media/rest-rpc-logo.png": "/Resume/static/media/rest-rpc-logo.eb99ad8558a3051b9858.png",
+    "static/media/hh-logo.svg": "/Resume/static/media/hh-logo.e73d7cade7c91746cdb9499b25ee57fa.svg",
+    "static/media/heart.svg": "/Resume/static/media/heart.84155d62bc715d85c2262cc2c55d3f25.svg",
+    "index.html": "/Resume/index.html",
+    "static/media/arrow-down.svg": "/Resume/static/media/arrow-down.0a81ee67e988fb2e47e1e001ff05926d.svg",
+    "main.32e922ae.css.map": "/Resume/static/css/main.32e922ae.css.map",
+    "main.668cd0d9.js.map": "/Resume/static/js/main.668cd0d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32e922ae.css",
+    "static/js/main.668cd0d9.js"
+  ]
+}
