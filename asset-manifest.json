@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Resume/static/css/main.32e922ae.css",
-    "main.js": "/Resume/static/js/main.668cd0d9.js",
+    "main.js": "/Resume/static/js/main.980c50d5.js",
     "static/media/offer-background.png": "/Resume/static/media/offer-background.f7d1915035c905dd16b8.png",
     "static/media/photo-mask-2.png": "/Resume/static/media/photo-mask-2.981046b1aff5bb46f859.png",
     "static/media/photo-mask-1.png": "/Resume/static/media/photo-mask-1.b42c8fb16187cb3d77b0.png",
@@ -13,15 +13,15 @@
     "static/media/docker-logo.png": "/Resume/static/media/docker-logo.d2f48df051a586297c15.png",
     "static/media/kuber-logo.png": "/Resume/static/media/kuber-logo.f568a0a722cbf5db0d70.png",
     "static/media/rest-rpc-logo.png": "/Resume/static/media/rest-rpc-logo.eb99ad8558a3051b9858.png",
-    "static/media/hh-logo.svg": "/Resume/static/media/hh-logo.e73d7cade7c91746cdb9499b25ee57fa.svg",
+    "static/media/hh-logo.svg": "/Resume/static/media/hh-logo.ba3aa5de809cdb2c7ad16d22345f4888.svg",
     "static/media/heart.svg": "/Resume/static/media/heart.84155d62bc715d85c2262cc2c55d3f25.svg",
     "index.html": "/Resume/index.html",
-    "static/media/arrow-down.svg": "/Resume/static/media/arrow-down.0a81ee67e988fb2e47e1e001ff05926d.svg",
+    "static/media/arrow-down.svg": "/Resume/static/media/arrow-down.048298c35cecd67a6ea4ee73e050afe4.svg",
     "main.32e922ae.css.map": "/Resume/static/css/main.32e922ae.css.map",
-    "main.668cd0d9.js.map": "/Resume/static/js/main.668cd0d9.js.map"
+    "main.980c50d5.js.map": "/Resume/static/js/main.980c50d5.js.map"
   },
   "entrypoints": [
     "static/css/main.32e922ae.css",
-    "static/js/main.668cd0d9.js"
+    "static/js/main.980c50d5.js"
   ]
 }
