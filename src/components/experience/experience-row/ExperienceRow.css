@@ -110,4 +110,8 @@
     .Experience__duration {
         font-size: 12px;
     }
+
+    .ExperienceRow__career-description{
+        font-size: 16px;
+    }
 }
