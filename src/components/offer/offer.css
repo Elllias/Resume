@@ -1,4 +1,10 @@
-﻿
+﻿.Offer__background {
+    background-image: url("../../ui/images/offer-background.png");
+    background-repeat: no-repeat;
+    background-color: #F9DB62;
+    background-position: right;
+}
+
 .Offer__offer-container {
     display: flex;
     justify-content: center;

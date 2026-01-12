@@ -1,4 +1,7 @@
-﻿
+﻿.Footer__background {
+    background-color: #1B1B1B;
+}
+
 .Footer__container {
     padding: 44px 60px;
     display: flex;

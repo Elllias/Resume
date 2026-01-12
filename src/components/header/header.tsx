@@ -1,4 +1,4 @@
-﻿import "./Header.css";
+﻿import "./header.css";
 import {useState, useEffect} from "react";
 
 export const Header = () => {
@@ -6,6 +6,7 @@ export const Header = () => {
 
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
+
         if (element) {
             element.scrollIntoView({
                 behavior: "smooth",
@@ -27,7 +28,7 @@ export const Header = () => {
     }, []);
 
     return (
-        <header className={`Header__container ${isScrolled && "scrolled"}`}>
+        <header className={`Header__container ${isScrolled ? "scrolled" : ""}`}>
             <span className="Header__header-text">Хочу в Яндекс</span>
             <nav>
                 <button onClick={() => scrollToSection('about')}>Обо мне</button>

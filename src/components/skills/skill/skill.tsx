@@ -1,4 +1,4 @@
-﻿import "./Skill.css";
+﻿import "./skill.css";
 
 type SkillProps = {
     name: string,

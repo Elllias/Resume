@@ -1,4 +1,4 @@
-﻿import "./ExperienceRow.css";
+﻿import "./experience-row.css";
 import arrowDown from "../../../ui/images/arrow-down.svg";
 import {pluralize} from "../../../utils/pluralize";
 import {useState} from "react";
@@ -34,7 +34,7 @@ export const ExperienceRow = ({startDate, endDate, company, career, description}
     };
 
     return (
-        <div className={`ExperienceRow__container ${isOpened && "opened"}`}>
+        <div className={`ExperienceRow__container ${isOpened ? "opened" : ""}`}>
             <div className="ExperienceRow__row-container" onClick={onClick}>
                 <div className="ExperienceRow__dates-container">
                 <span className="Experience__dates">
@@ -48,16 +48,18 @@ export const ExperienceRow = ({startDate, endDate, company, career, description}
                 <span className="ExperienceRow__company-text">
                     {company}
                 </span>
-                    <span className="ExperienceRow__dot">
+                <span className="ExperienceRow__dot">
                     ·
                 </span>
-                    <span className="ExperienceRow__career-text">
+                <span className="ExperienceRow__career-text">
                     {career}
                 </span>
                 </div>
-                <img className={`ExperienceRow__arrow ${isOpened && "opened"}`} src={arrowDown}/>
+                <img className={`ExperienceRow__arrow ${isOpened ? "opened" : ""}`} src={arrowDown}/>
             </div>
-            <div className={`ExperienceRow__description-container ${isOpened && "opened"}`}>
+            <div className={`ExperienceRow__description-container ${isOpened ? "opened" : ""}
+            
+            `}>
                 <span className="ExperienceRow__career-description">{description}</span>
             </div>
         </div>

@@ -1,4 +1,7 @@
-﻿
+﻿.Experience__background {
+    background-color: #F2F2F2;
+}
+
 .Experience__container{
     display: flex;
     flex-direction: column;

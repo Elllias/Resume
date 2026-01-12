@@ -1,0 +1,11 @@
+﻿.Section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section__content-container {
+    max-width: 1300px;
+    width: 100%;
+    position: relative;
+}

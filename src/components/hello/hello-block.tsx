@@ -1,9 +1,10 @@
-import './HelloBlock.css';
+import './hello-block.css';
 import heartImage from "../../ui/images/heart.svg";
+import {Section} from "../section/section";
 
 export const HelloBlock = () => {
     return (
-        <>
+        <Section className="HelloBlock__background">
             <div className="HelloBlock__video-background">
                 <video className="HelloBlock__video" autoPlay muted loop playsInline preload="auto">
                     <source src={`${process.env.PUBLIC_URL}/video/hello-background.mp4`} type="video/mp4"/>
@@ -20,6 +21,6 @@ export const HelloBlock = () => {
                     <p className="HelloBlock__base-text HelloBlock__low-text">© Волков Илья</p>
                 </div>
             </div>
-        </>
+        </Section>
     );
 }

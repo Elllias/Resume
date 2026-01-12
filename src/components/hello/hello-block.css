@@ -1,11 +1,14 @@
+.HelloBlock__background {
+    background-color: #F7D861;
+}
+
 .HelloBlock__container{
     display: block;
-    height: 812px;
     align-content: end;
     padding: 44px 60px;
     overflow: hidden;
     position: absolute;
-    top: 0;
+    bottom: 0;
     box-sizing: border-box;
 }
 

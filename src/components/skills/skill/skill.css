@@ -1,5 +1,4 @@
-﻿
-.Skill__container{
+﻿.Skill__container{
     display: flex;
     padding: 5px 20px 5px 10px;
     gap: 8px;
@@ -8,6 +7,7 @@
 .Skill__img{
     height: 45px;
     width: 45px;
+
 }
 
 .Skill__info-container{

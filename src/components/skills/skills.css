@@ -1,3 +1,6 @@
+.Skills__background {
+    background-color: #F2F2F2;
+}
 
 .Skills__container{
     padding: 44px 60px;
@@ -11,7 +14,7 @@
 }
 
 .Skills__grid-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
     gap: 32px;
-    flex-wrap: wrap;
 }
