@@ -89,3 +89,25 @@
     font-size: 18px;
     white-space: pre-line;
 }
+
+@media(max-width: 1080px){
+    .ExperienceRow__company-text{
+        font-size: 16px;
+    }
+
+    .ExperienceRow__career-text{
+        font-size: 16px;
+    }
+
+    .ExperienceRow__dot{
+        font-size: 16px;
+    }
+
+    .Experience__dates {
+        font-size: 16px;
+    }
+
+    .Experience__duration {
+        font-size: 12px;
+    }
+}

@@ -16,3 +16,14 @@
     height: 52px;
     width: 52px;
 }
+
+@media(max-width: 1080px){
+    .Offer__offer-text {
+        font-size: 48px;
+    }
+
+    .Offer__heart-image{
+        height: 42px;
+        width: 42px;
+    }
+}
