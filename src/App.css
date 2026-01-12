@@ -33,7 +33,7 @@
 }
 
 .App__content-container {
-    width: 1300px;
+    max-width: 1300px;
 }
 
 .HelloBlock__background {
