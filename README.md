@@ -1,5 +1,8 @@
 # Resume
 
+### Использование: 
+Проект доступен по ссылке: https://elllias.github.io/Resume/
+
 ### Стэк:
 * TS
 * React
