@@ -57,7 +57,7 @@
     right: -23px;
     width: 23px;
     height: 23px;
-    background-image: url(https://avatars.mds.yandex.net/get-lpc/17800094/c0ae6a89-38e1-4986-9f11-9b2b6f408321/orig);
+    background-image: url("../../ui/images/before-radius.svg");
 }
 
 .HelloBlock__video {
