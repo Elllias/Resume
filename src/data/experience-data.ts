@@ -82,7 +82,7 @@ export const ExperienceData = [
     {
         startDate: new Date(2025, 3),
         company: "Lesta Games",
-        career: "Middle Fullstack Unity-разработчик",
+        career: "Middle Fullstack Unity разработчик",
         description: "Стэк:\n" +
             "— Unity, C#;\n" +
             "— ASP.NET (сессионный сервер);\n" +
