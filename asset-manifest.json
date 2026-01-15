@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.873fdebd.css",
+    "main.css": "/Resume/static/css/main.167cc51d.css",
     "main.js": "/Resume/static/js/main.aa438bc8.js",
     "static/media/offer-background.png": "/Resume/static/media/offer-background.f7d1915035c905dd16b8.png",
     "static/media/photo-mask-2.png": "/Resume/static/media/photo-mask-2.981046b1aff5bb46f859.png",
@@ -17,11 +17,12 @@
     "static/media/heart.svg": "/Resume/static/media/heart.84155d62bc715d85c2262cc2c55d3f25.svg",
     "index.html": "/Resume/index.html",
     "static/media/arrow-down.svg": "/Resume/static/media/arrow-down.048298c35cecd67a6ea4ee73e050afe4.svg",
-    "main.873fdebd.css.map": "/Resume/static/css/main.873fdebd.css.map",
+    "static/media/before-radius.svg": "/Resume/static/media/before-radius.cd6c2a48a8de5bc00187.svg",
+    "main.167cc51d.css.map": "/Resume/static/css/main.167cc51d.css.map",
     "main.aa438bc8.js.map": "/Resume/static/js/main.aa438bc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.873fdebd.css",
+    "static/css/main.167cc51d.css",
     "static/js/main.aa438bc8.js"
   ]
 }
